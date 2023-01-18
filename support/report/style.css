@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@import url(https://mbcsoccer.com/theme/mbc2021/css/mbc.css?p=20220330);
+
+/* ※ 230113_꿈나무축구재단_연혁 및 기부금사용내역 AREA Start ※ */
+@import url(https://font.imbc.com/noto/noto.css);
+.blind{position: absolute; overflow: hidden; clip: rect(0 0 0 0) ; width: 1px; height: 1px;margin: -1px; font-size: 1px; color: transparent;}
+.build_wrap {width: 100%; max-width: 1140px; margin: 0 auto; background-color: #FFF;     font-family: 'notokr-demilight';}
+.build_wrap > div > h3 {font-size: 22px; margin-top: 90px; margin-bottom: 20px; text-align: center; font-family: 'notokr-medium';}
+.bd_graph ul {padding-top: 40px; border-top: 1px solid #eaeaea; box-sizing: border-box; overflow: hidden; padding: 40px 3.070175438596491% 0;}
+.bd_graph ul li {width: 50%; float: left;}
+.bd_graph ul li span {display: block; font-size: 20px; margin-bottom: 20px; text-align: center; margin-bottom: 30px; font-family: 'notokr-medium';}
+.bd_graph ul li img {display: block; margin: 0 auto; width: 100%; max-width: 500px;}
+.bd_table {position: relative;}
+.bd_table p {font-size: 16px; position: absolute; top: 0; right: 0;}
+.bd_table table {width: 100%;}
+.bd_table table thead tr th, .bd_table table tbody tr td, .bd_table table tfoot tr td {font-family: 'notokr-regular'; font-size: 18px; text-align: center; border-top: 1px solid #c7c7c7; box-sizing: border-box; padding: 14px 0;}
+.bd_table table thead tr th, .bd_table table tbody tr td.font_bold, .bd_table table tfoot tr td {font-weight: bold;}
+.bd_table table tfoot tr td {border-bottom: 1px solid #c7c7c7; box-sizing: border-box;}
+.bdtb_01 table thead, .bdtb_01 table tfoot {background-color: #d3faeb;}
+.bdtb_02 table thead, .bdtb_02 table tfoot {background-color: #d3effa;}
+.bd_table table tbody tr td.txtaln_right, .bd_table table tfoot tr td.txtaln_right {text-align: right; padding-right: 2.280701754385965%;}
+.bd_info {margin-top: 50px; margin-bottom: 280px; padding: 0 3.070175438596491%;}
+.bd_info ul li {font-size: 16px; line-height: 24px; margin-top: 8px;}
+.bd_info ul li:first-child {margin-top: 0;}
+@media screen and (max-width: 767px){
+    .build_wrap > div > h3 {font-size: 18px; margin-top: 40px;}
+    .bd_table p {font-size: 12px; top: 3px; right: 8px;}
+    .bd_graph ul {padding: 20px 0;}
+    .bd_graph ul li {width: 100%; float: none; margin-top: 50px;}
+    .bd_graph ul li:first-child {margin-top: 0;}
+    .bd_graph ul li span {font-size: 18px;}
+    .bd_table table thead tr th, .bd_table table tbody tr td, .bd_table table tfoot tr td {font-size: 13px;}
+    .bd_table table tbody tr td.txtaln_right, .bd_table table tfoot tr td.txtaln_right {text-align: center; padding-right: 0;}
+    .bd_info {margin-top: 25px; margin-bottom: 100px;}
+    .bd_info ul li {font-size: 12px; line-height: 18px; margin-top: 4px;}
+}
+/* ※ 230113_꿈나무축구재단_연혁 및 기부금사용내역 AREA End ※ */
